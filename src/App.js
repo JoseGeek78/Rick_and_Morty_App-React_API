@@ -4,7 +4,7 @@ function App() {
   <>
   <nav className="navbar navbar-dark bg-dark">
     <div>
-      <a href="http://localhost:3000/">Rick and Morty app</a>
+      <a className="navbar-brand" href="http://localhost:3000/">Rick and Morty app</a>
     </div>
   </nav>
     </>
