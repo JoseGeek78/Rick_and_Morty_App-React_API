@@ -3,8 +3,8 @@ function App() {
 
   <>
   <nav className="navbar navbar-dark bg-dark">
-    <div>
-      <a className="navbar-brand" href="http://localhost:3000/">Rick and Morty app</a>
+    <div className="container">
+      <a className="navbar-brand text-uppercase" href="http://localhost:3000/">Rick and Morty app</a>
     </div>
   </nav>
     </>
