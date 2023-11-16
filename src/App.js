@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 
 fetch('https://rickandmortyapi.com/api/character')
+   .then(response => response.json())
 
 function App() {
   return (
