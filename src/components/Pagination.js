@@ -10,7 +10,7 @@ const Pagination = ({ prev, next, onPrevious, onNext }) => {
   };
 
   return (
-    <nav>
+    <nav className="my-4">
       <ul className="pagination justify-content-center">
         {prev ? (
           <li className="page-item">
